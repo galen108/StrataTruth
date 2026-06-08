@@ -51,7 +51,7 @@ export default function Navigation() {
       >
         <button
           onClick={() => scrollTo("hero")}
-          className="font-display text-sm tracking-widest px-4 py-1 text-white/70 hover:text-white transition-colors mr-2"
+          className="font-display text-sm tracking-widest px-2 sm:px-4 py-1 text-white/70 hover:text-white transition-colors mr-1 sm:mr-2"
           style={{ fontFamily: "var(--font-syne)" }}
         >
           STRATA
@@ -64,7 +64,7 @@ export default function Navigation() {
             <button
               key={s.id}
               onClick={() => scrollTo(s.id)}
-              className="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-mono-data transition-all duration-200"
+              className="flex items-center gap-1.5 px-2 sm:px-4 py-1.5 rounded-full text-sm font-mono-data transition-all duration-200"
               style={{
                 fontFamily: "var(--font-jetbrains)",
                 fontSize: "0.72rem",

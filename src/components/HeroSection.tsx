@@ -103,10 +103,10 @@ export default function HeroSection() {
         style={{ background: "radial-gradient(circle, rgba(245,158,11,0.07) 0%, transparent 70%)", filter: "blur(60px)", animation: "blobDrift 12s ease-in-out infinite" }}
       />
 
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto w-full">
         {/* Label */}
         <p
-          className="font-mono-data text-xs tracking-[0.4em] uppercase mb-6 opacity-0 animate-fadeInUp"
+          className="font-mono-data text-xs tracking-widest sm:tracking-[0.4em] uppercase mb-6 opacity-0 animate-fadeInUp"
           style={{ fontFamily: "var(--font-jetbrains)", color: "#64748b" }}
         >
           A manifesto in three layers
@@ -117,7 +117,7 @@ export default function HeroSection() {
           className="font-display opacity-0 animate-fadeInUp delay-100"
           style={{
             fontFamily: "var(--font-syne)",
-            fontSize: "clamp(5rem, 22vw, 18rem)",
+            fontSize: "clamp(2rem, 14vw, 18rem)",
             fontWeight: 800,
             lineHeight: 0.88,
             letterSpacing: "-0.02em",
@@ -139,31 +139,31 @@ export default function HeroSection() {
         </p>
 
         {/* Stats */}
-        <div className="flex flex-wrap justify-center gap-6 mt-12 opacity-0 animate-fadeInUp delay-300">
+        <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-8 sm:mt-12 opacity-0 animate-fadeInUp delay-300">
           {STATS.map((s) => (
             <div
               key={s.label}
-              className="glass rounded-xl px-6 py-4 text-center"
+              className="glass rounded-xl px-2 sm:px-6 py-3 sm:py-4 text-center"
             >
               <div
-                className="font-display text-3xl md:text-4xl"
+                className="font-display text-xl sm:text-3xl md:text-4xl"
                 style={{ fontFamily: "var(--font-syne)", color: "#e2e8f0" }}
               >
                 {s.value}
               </div>
               <div
-                className="font-mono-data text-xs tracking-widest uppercase mt-1"
+                className="font-mono-data text-xs tracking-normal sm:tracking-widest uppercase mt-1"
                 style={{ fontFamily: "var(--font-jetbrains)", color: "#10b981" }}
               >
                 {s.label}
               </div>
-              <div style={{ color: "#64748b", fontSize: "0.75rem", marginTop: "2px" }}>{s.sub}</div>
+              <div style={{ color: "#64748b", fontSize: "0.7rem", marginTop: "2px" }}>{s.sub}</div>
             </div>
           ))}
         </div>
 
         {/* Path cards */}
-        <div className="flex flex-wrap justify-center gap-4 mt-10 opacity-0 animate-fadeInUp delay-400">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 mt-6 sm:mt-10 opacity-0 animate-fadeInUp delay-400">
           {PATHS.map((p) => {
             const Icon = p.Icon;
             return (

@@ -14,7 +14,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative py-24 px-6"
+      className="relative py-12 md:py-24 px-4 sm:px-6"
       style={{ background: "linear-gradient(180deg, #040410 0%, #020208 100%)" }}
     >
       {/* Top separator */}
@@ -25,7 +25,7 @@ export default function Footer() {
 
       <div className="max-w-5xl mx-auto">
         {/* Strata grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
           {STRATA.map((s) => {
             const Icon = s.icon;
             return (
@@ -76,7 +76,7 @@ export default function Footer() {
 
         {/* Synthesis statement */}
         <div
-          className="rounded-2xl p-8 mb-12 text-center"
+          className="rounded-2xl p-5 sm:p-8 mb-8 md:mb-12 text-center"
           style={{
             background: "rgba(255,255,255,0.02)",
             border: "1px solid rgba(255,255,255,0.06)",

@@ -85,7 +85,7 @@ export default function SacredSection() {
     <section
       id="sacred"
       ref={sectionRef}
-      className="relative py-32 px-6"
+      className="relative py-16 md:py-32 px-4 sm:px-6 overflow-hidden"
       style={{ background: "linear-gradient(180deg, #08082a 0%, #0c0820 50%, #040410 100%)" }}
     >
       {/* Ambient blobs */}
@@ -113,7 +113,7 @@ export default function SacredSection() {
             className="font-display"
             style={{
               fontFamily: "var(--font-syne)",
-              fontSize: "clamp(2.5rem, 8vw, 6rem)",
+              fontSize: "clamp(1.75rem, 7.5vw, 6rem)",
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: "-0.02em",
@@ -134,7 +134,7 @@ export default function SacredSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 lg:gap-10 mb-10 lg:mb-16">
           {/* Breathing orb + path selector */}
           <div
             className={`lg:col-span-2 flex flex-col items-center gap-8 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}

@@ -43,7 +43,7 @@ export default function BiologicalSection() {
     <section
       id="biological"
       ref={sectionRef}
-      className="relative py-32 px-6"
+      className="relative py-16 md:py-32 px-4 sm:px-6 overflow-hidden"
       style={{ background: "linear-gradient(180deg, #080820 0%, #040d14 100%)" }}
     >
       {/* Ambient blob */}
@@ -67,7 +67,7 @@ export default function BiologicalSection() {
             className="font-display"
             style={{
               fontFamily: "var(--font-syne)",
-              fontSize: "clamp(2.5rem, 8vw, 6rem)",
+              fontSize: "clamp(1.75rem, 7.5vw, 6rem)",
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: "-0.02em",
@@ -258,7 +258,7 @@ export default function BiologicalSection() {
 
         {/* Cost callout */}
         <div
-          className={`mt-16 rounded-2xl p-8 transition-all duration-700 delay-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`mt-10 md:mt-16 rounded-2xl p-5 sm:p-8 transition-all duration-700 delay-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           style={{
             background: "rgba(239,68,68,0.05)",
             border: "1px solid rgba(239,68,68,0.2)",

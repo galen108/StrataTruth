@@ -99,7 +99,7 @@ export default function StructuralSection() {
     <section
       id="structural"
       ref={sectionRef}
-      className="relative py-32 px-6"
+      className="relative py-16 md:py-32 px-4 sm:px-6 overflow-hidden"
       style={{ background: "linear-gradient(180deg, #040d14 0%, #08082a 100%)" }}
     >
       {/* Ambient blobs */}
@@ -127,7 +127,7 @@ export default function StructuralSection() {
             className="font-display"
             style={{
               fontFamily: "var(--font-syne)",
-              fontSize: "clamp(2.5rem, 8vw, 6rem)",
+              fontSize: "clamp(1.75rem, 7.5vw, 6rem)",
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: "-0.02em",
@@ -212,7 +212,7 @@ export default function StructuralSection() {
                   }}
                   onClick={() => setExpandedTier(isOpen ? null : i)}
                 >
-                  <div className="flex items-center gap-4 px-5 py-4">
+                  <div className="flex items-center gap-2 sm:gap-4 px-3 sm:px-5 py-3 sm:py-4">
                     <div
                       className="w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-mono-data"
                       style={{
@@ -259,7 +259,7 @@ export default function StructuralSection() {
                   </div>
 
                   {isOpen && (
-                    <div className="px-5 pb-5 border-t" style={{ borderColor: `${tier.color}20` }}>
+                    <div className="px-3 sm:px-5 pb-4 sm:pb-5 border-t" style={{ borderColor: `${tier.color}20` }}>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
                         <div>
                           <p
