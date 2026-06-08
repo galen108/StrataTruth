@@ -117,7 +117,7 @@ export default function HeroSection() {
           className="font-display opacity-0 animate-fadeInUp delay-100"
           style={{
             fontFamily: "var(--font-syne)",
-            fontSize: "clamp(2rem, 14vw, 18rem)",
+            fontSize: "clamp(2rem, 14vw, 9rem)",
             fontWeight: 800,
             lineHeight: 0.88,
             letterSpacing: "-0.02em",

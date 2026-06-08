@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15d35ae-a7f8-49a1-8783-5ac0fc5a478f" name="Changes" comment="June 8th,2026 [Main origin] Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/malsysisal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stratatruth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BiologicalSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BiologicalSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SacredSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SacredSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StructuralSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StructuralSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +71,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/galentenney/IdeaProjects/malsysisal/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/galentenney/IdeaProjects/stratatruth/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -122,7 +112,7 @@
       <workItem from="1780911228206" duration="909000" />
       <workItem from="1780913994685" duration="341000" />
       <workItem from="1780914352953" duration="3372000" />
-      <workItem from="1780925221012" duration="2693000" />
+      <workItem from="1780925221012" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="June 8th,2026 [Main origin] Initial commit">
       <option name="closed" value="true" />
@@ -132,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780924428271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="June 8th,2026 [Main origin] Initial commit">
+      <option name="closed" value="true" />
+      <created>1780927990010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780927990010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
